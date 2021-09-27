@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,16 +12,18 @@
 		1FCDDA651EAC31EF006EB95B /* Action+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0569E01DE28587007E1D0D /* Action+Internal.swift */; };
 		1FCDDA661EAC31EF006EB95B /* UIAlertAction+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0569E51DE28587007E1D0D /* UIAlertAction+Action.swift */; };
 		1FCDDA671EAC31EF006EB95B /* UIBarButtonItem+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0569E61DE28587007E1D0D /* UIBarButtonItem+Action.swift */; };
-		1FCDDA6C1EAC3221006EB95B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCDDA6A1EAC3221006EB95B /* RxCocoa.framework */; };
-		1FCDDA6D1EAC3221006EB95B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCDDA6B1EAC3221006EB95B /* RxSwift.framework */; };
 		1FCDDA8A1EAC329E006EB95B /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0569E21DE28587007E1D0D /* Action.swift */; };
 		1FCDDA8B1EAC329E006EB95B /* Action+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0569E01DE28587007E1D0D /* Action+Internal.swift */; };
-		1FCDDA8E1EAC32AC006EB95B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCDDA8C1EAC32AC006EB95B /* RxCocoa.framework */; };
-		1FCDDA8F1EAC32AC006EB95B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCDDA8D1EAC32AC006EB95B /* RxSwift.framework */; };
 		1FCDDA901EAC3308006EB95B /* Action.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0569E11DE28587007E1D0D /* Action.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FCDDA9E1EAC33C5006EB95B /* Action.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0569E11DE28587007E1D0D /* Action.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FCDDAA11EAC33D3006EB95B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCDDA9F1EAC33D3006EB95B /* RxCocoa.framework */; };
-		1FCDDAA21EAC33D3006EB95B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCDDAA01EAC33D3006EB95B /* RxSwift.framework */; };
+		360361C22701E68A0074B1B0 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360361C02701E68A0074B1B0 /* RxCocoa.xcframework */; };
+		360361C42701E68A0074B1B0 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360361C12701E68A0074B1B0 /* RxSwift.xcframework */; };
+		360361C92701E6A00074B1B0 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360361C12701E68A0074B1B0 /* RxSwift.xcframework */; };
+		360361CC2701E6A80074B1B0 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360361C02701E68A0074B1B0 /* RxCocoa.xcframework */; };
+		360361CE2701E6B60074B1B0 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360361C02701E68A0074B1B0 /* RxCocoa.xcframework */; };
+		360361D02701E6B60074B1B0 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360361C12701E68A0074B1B0 /* RxSwift.xcframework */; };
+		360361D32701E6BD0074B1B0 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360361C02701E68A0074B1B0 /* RxCocoa.xcframework */; };
+		360361D52701E6BD0074B1B0 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360361C12701E68A0074B1B0 /* RxSwift.xcframework */; };
 		3D37A3961DB4A97C0028BC0E /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9C98331DB4A87B004A9F7C /* RxTest.framework */; };
 		3D730DE31F673BE4008534D3 /* Control+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D730DE21F673BE4008534D3 /* Control+Action.swift */; };
 		3D730DE41F673C64008534D3 /* Control+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D730DE21F673BE4008534D3 /* Control+Action.swift */; };
@@ -64,8 +66,6 @@
 		7F612AC11D7F110800B93BC5 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F612AAB1D7F106900B93BC5 /* RxSwift.framework */; };
 		7F612AC21D7F110800B93BC5 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F612AAC1D7F106900B93BC5 /* RxCocoa.framework */; };
 		7F612AC31D7F110800B93BC5 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F612AAD1D7F106900B93BC5 /* RxBlocking.framework */; };
-		7F612AC51D7F110E00B93BC5 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F612AAB1D7F106900B93BC5 /* RxSwift.framework */; };
-		7F612AC61D7F110E00B93BC5 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F612AAC1D7F106900B93BC5 /* RxCocoa.framework */; };
 		7F612ACF1D7F13B800B93BC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F612ACE1D7F13B800B93BC5 /* AppDelegate.swift */; };
 		7F612AD11D7F13B800B93BC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F612AD01D7F13B800B93BC5 /* ViewController.swift */; };
 		7F612AD41D7F13B800B93BC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F612AD21D7F13B800B93BC5 /* Main.storyboard */; };
@@ -127,6 +127,8 @@
 		1FCDDA961EAC33B0006EB95B /* Action.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Action.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCDDA9F1EAC33D3006EB95B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "Carthage/Checkouts/RxSwift/build/Debug-watchos/RxCocoa.framework"; sourceTree = "<group>"; };
 		1FCDDAA01EAC33D3006EB95B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "Carthage/Checkouts/RxSwift/build/Debug-watchos/RxSwift.framework"; sourceTree = "<group>"; };
+		360361C02701E68A0074B1B0 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		360361C12701E68A0074B1B0 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
 		3D730DE21F673BE4008534D3 /* Control+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Control+Action.swift"; sourceTree = "<group>"; };
 		3D730DE81F673FD9008534D3 /* Button+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Action.swift"; sourceTree = "<group>"; };
 		3D9C98331DB4A87B004A9F7C /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Checkouts/RxSwift/build/Debug/RxTest.framework; sourceTree = "<group>"; };
@@ -184,8 +186,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCDDA6C1EAC3221006EB95B /* RxCocoa.framework in Frameworks */,
-				1FCDDA6D1EAC3221006EB95B /* RxSwift.framework in Frameworks */,
+				360361C92701E6A00074B1B0 /* RxSwift.xcframework in Frameworks */,
+				360361CC2701E6A80074B1B0 /* RxCocoa.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,8 +195,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCDDA8E1EAC32AC006EB95B /* RxCocoa.framework in Frameworks */,
-				1FCDDA8F1EAC32AC006EB95B /* RxSwift.framework in Frameworks */,
+				360361CE2701E6B60074B1B0 /* RxCocoa.xcframework in Frameworks */,
+				360361D02701E6B60074B1B0 /* RxSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +204,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FCDDAA11EAC33D3006EB95B /* RxCocoa.framework in Frameworks */,
-				1FCDDAA21EAC33D3006EB95B /* RxSwift.framework in Frameworks */,
+				360361D52701E6BD0074B1B0 /* RxSwift.xcframework in Frameworks */,
+				360361D32701E6BD0074B1B0 /* RxCocoa.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +251,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F612AC51D7F110E00B93BC5 /* RxSwift.framework in Frameworks */,
-				7F612AC61D7F110E00B93BC5 /* RxCocoa.framework in Frameworks */,
+				360361C42701E68A0074B1B0 /* RxSwift.xcframework in Frameworks */,
+				360361C22701E68A0074B1B0 /* RxCocoa.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +332,8 @@
 		7F5E6A5C1D7F06C4000B6076 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				360361C02701E68A0074B1B0 /* RxCocoa.xcframework */,
+				360361C12701E68A0074B1B0 /* RxSwift.xcframework */,
 				FC9C4166215A99BE00541C4B /* RxCocoa.framework */,
 				FC9C4167215A99BE00541C4B /* RxSwift.framework */,
 				3DD965CF1F5DC31D00C180FE /* Nimble.framework */,
@@ -621,6 +625,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -855,7 +860,11 @@
 				);
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.toshi0383.Action;
 				PRODUCT_NAME = Action;
 				SDKROOT = appletvos;
@@ -883,7 +892,11 @@
 				);
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.toshi0383.Action;
 				PRODUCT_NAME = Action;
 				SDKROOT = appletvos;
@@ -913,7 +926,11 @@
 				FRAMEWORK_VERSION = A;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.toshi0383.Action;
 				PRODUCT_NAME = Action;
@@ -944,7 +961,11 @@
 				FRAMEWORK_VERSION = A;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.toshi0383.Action;
 				PRODUCT_NAME = Action;
@@ -972,7 +993,11 @@
 				);
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.toshi0383.Action;
 				PRODUCT_NAME = Action;
 				SDKROOT = watchos;
@@ -1001,7 +1026,11 @@
 				);
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.toshi0383.Action;
 				PRODUCT_NAME = Action;
 				SDKROOT = watchos;
@@ -1032,7 +1061,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INFOPLIST_FILE = Tests/ActionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ashfurrow.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1061,7 +1094,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INFOPLIST_FILE = Tests/ActionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ashfurrow.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1079,7 +1116,11 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INFOPLIST_FILE = Tests/ActionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1098,7 +1139,11 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INFOPLIST_FILE = Tests/ActionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -1117,7 +1162,10 @@
 				);
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INFOPLIST_FILE = Demo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1136,7 +1184,10 @@
 				);
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INFOPLIST_FILE = Demo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1249,7 +1300,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1273,7 +1325,11 @@
 				);
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashfurrow.Action;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1297,7 +1353,11 @@
 				);
 				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashfurrow.Action;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
